@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+# Supply Chain Smart Contract
+## Hardhat example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+### Node versions:
+* node: v12.22.6
+* npm: 6.14.15
 
-Try running some of the following tasks:
+### Install
+`npm install`
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+### Run tests
+`npm test` or `npx hardhat test`
+
+### Compile
+`npm run compile`
+
+### Deploy
